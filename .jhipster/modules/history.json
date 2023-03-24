@@ -21,5 +21,16 @@
       "endOfLine" : "lf",
       "indentSize" : 2
     }
+  }, {
+    "module" : "maven-java",
+    "date" : "2023-03-24T07:21:12.343446Z",
+    "properties" : {
+      "packageName" : "com.healthAndHome",
+      "projectName" : "Health and Home",
+      "baseName" : "healthAndHome",
+      "serverPort" : 8080,
+      "endOfLine" : "lf",
+      "indentSize" : 2
+    }
   } ]
 }
