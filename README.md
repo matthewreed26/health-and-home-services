@@ -25,6 +25,11 @@ npm install
 ./mvnw
 ```
 
+```bash
+docker compose -f src/main/docker/sonar.yml up -d
+./mvnw clean verify sonar:sonar
+```
+
 
 <!-- jhipster-needle-startupCommand -->
 
@@ -33,5 +38,6 @@ npm install
 - [Hexagonal architecture](documentation/hexagonal-architecture.md)
 - [Package types](documentation/package-types.md)
 - [Assertions](documentation/assertions.md)
+- [sonar](documentation/sonar.md)
 
 <!-- jhipster-needle-documentation -->
