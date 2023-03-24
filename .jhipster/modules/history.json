@@ -131,5 +131,16 @@
       "endOfLine" : "lf",
       "indentSize" : 2
     }
+  }, {
+    "module" : "java-archunit",
+    "date" : "2023-03-24T07:21:13.133667Z",
+    "properties" : {
+      "packageName" : "com.healthAndHome",
+      "projectName" : "Health and Home",
+      "baseName" : "healthAndHome",
+      "serverPort" : 8080,
+      "endOfLine" : "lf",
+      "indentSize" : 2
+    }
   } ]
 }
