@@ -483,5 +483,16 @@
       "indentSize" : 2,
       "baseName" : "healthAndHome"
     }
+  }, {
+    "module" : "springdoc-jwt",
+    "date" : "2023-05-23T13:44:34.728814Z",
+    "properties" : {
+      "endOfLine" : "lf",
+      "packageName" : "com.healthAndHome",
+      "projectName" : "Health and Home",
+      "serverPort" : 8080,
+      "indentSize" : 2,
+      "baseName" : "healthAndHome"
+    }
   } ]
 }
