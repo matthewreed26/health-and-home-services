@@ -494,5 +494,16 @@
       "indentSize" : 2,
       "baseName" : "healthAndHome"
     }
+  }, {
+    "module" : "spring-boot-jwt-basic-auth",
+    "date" : "2023-05-23T13:44:36.751133Z",
+    "properties" : {
+      "endOfLine" : "lf",
+      "packageName" : "com.healthAndHome",
+      "projectName" : "Health and Home",
+      "serverPort" : 8080,
+      "indentSize" : 2,
+      "baseName" : "healthAndHome"
+    }
   } ]
 }
