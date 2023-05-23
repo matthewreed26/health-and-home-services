@@ -4,6 +4,19 @@
   "private": true,
   "description": "Health and Home",
   "license": "UNLICENSED",
+  "scripts": {
+    "prepare": "husky install",
+    "prettier:check": "prettier --check \"{,src/**/}*.{md,json,yml,html,js,ts,tsx,css,scss,vue,java,xml}\"",
+    "prettier:format": "prettier --write \"{,src/**/}*.{md,json,yml,html,js,ts,tsx,css,scss,vue,java,xml}\""
+  },
+  "devDependencies": {
+    "@prettier/plugin-xml": "2.2.0",
+    "husky": "8.0.3",
+    "lint-staged": "13.2.2",
+    "prettier": "2.8.8",
+    "prettier-plugin-java": "2.1.0",
+    "prettier-plugin-packagejson": "2.4.3"
+  },
   "engines": {
     "node": ">=18.16.0"
   },
