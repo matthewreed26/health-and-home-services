@@ -16,36 +16,12 @@ npm install
 
 ## Local environment
 
-- [Local server](http://localhost:8080)
-- [Local API doc](http://localhost:8080/swagger-ui.html)
-
 <!-- jhipster-needle-localEnvironment -->
 
 ## Start up
 
-```bash
-./mvnw
-```
-
-```bash
-docker compose -f src/main/docker/sonar.yml up -d
-./mvnw clean verify sonar:sonar
-```
-
-
 <!-- jhipster-needle-startupCommand -->
 
 ## Documentation
-
-- [Hexagonal architecture](documentation/hexagonal-architecture.md)
-- [Package types](documentation/package-types.md)
-- [Assertions](documentation/assertions.md)
-- [sonar](documentation/sonar.md)
-- [Logs spy](documentation/logs-spy.md)
-- [Dev tools](documentation/dev-tools.md)
-- [CORS configuration](documentation/cors-configuration.md)
-- [Cucumber](documentation/cucumber.md)
-- [Cucumber authentication](documentation/cucumber-authentication.md)
-- [JWT basic auth](documentation/jwt-basic-auth.md)
 
 <!-- jhipster-needle-documentation -->
