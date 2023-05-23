@@ -241,5 +241,16 @@
       "indentSize" : 2,
       "baseName" : "healthAndHome"
     }
+  }, {
+    "module" : "application-service-hexagonal-architecture-documentation",
+    "date" : "2023-05-23T13:43:35.172612Z",
+    "properties" : {
+      "endOfLine" : "lf",
+      "packageName" : "com.healthAndHome",
+      "projectName" : "Health and Home",
+      "serverPort" : 8080,
+      "indentSize" : 2,
+      "baseName" : "healthAndHome"
+    }
   } ]
 }
