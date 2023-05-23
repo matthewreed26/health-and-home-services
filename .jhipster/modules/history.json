@@ -428,5 +428,16 @@
       "indentSize" : 2,
       "baseName" : "healthAndHome"
     }
+  }, {
+    "module" : "hibernate-2nd-level-cache",
+    "date" : "2023-05-23T13:44:18.826651Z",
+    "properties" : {
+      "endOfLine" : "lf",
+      "packageName" : "com.healthAndHome",
+      "projectName" : "Health and Home",
+      "serverPort" : 8080,
+      "indentSize" : 2,
+      "baseName" : "healthAndHome"
+    }
   } ]
 }
