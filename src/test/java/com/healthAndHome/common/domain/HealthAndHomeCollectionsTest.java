@@ -25,7 +25,7 @@ class HealthAndHomeCollectionsTest {
       Collection<Object> collection = HealthAndHomeCollections.immutable(input);
 
       assertThat(collection).isEmpty();
-      assertThatThrownBy(() -> collection.clear()).isExactlyInstanceOf(UnsupportedOperationException.class);
+      assertThatThrownBy(collection::clear).isExactlyInstanceOf(UnsupportedOperationException.class);
     }
 
     @Test
@@ -35,7 +35,7 @@ class HealthAndHomeCollectionsTest {
       Collection<String> collection = HealthAndHomeCollections.immutable(input);
 
       assertThat(collection).containsExactly("value");
-      assertThatThrownBy(() -> collection.clear()).isExactlyInstanceOf(UnsupportedOperationException.class);
+      assertThatThrownBy(collection::clear).isExactlyInstanceOf(UnsupportedOperationException.class);
     }
   }
 
@@ -49,7 +49,7 @@ class HealthAndHomeCollectionsTest {
       Set<Object> set = HealthAndHomeCollections.immutable(input);
 
       assertThat(set).isEmpty();
-      assertThatThrownBy(() -> set.clear()).isExactlyInstanceOf(UnsupportedOperationException.class);
+      assertThatThrownBy(set::clear).isExactlyInstanceOf(UnsupportedOperationException.class);
     }
 
     @Test
@@ -59,7 +59,7 @@ class HealthAndHomeCollectionsTest {
       Set<String> set = HealthAndHomeCollections.immutable(input);
 
       assertThat(set).containsExactly("value");
-      assertThatThrownBy(() -> set.clear()).isExactlyInstanceOf(UnsupportedOperationException.class);
+      assertThatThrownBy(set::clear).isExactlyInstanceOf(UnsupportedOperationException.class);
     }
   }
 
@@ -73,7 +73,7 @@ class HealthAndHomeCollectionsTest {
       List<Object> list = HealthAndHomeCollections.immutable(input);
 
       assertThat(list).isEmpty();
-      assertThatThrownBy(() -> list.clear()).isExactlyInstanceOf(UnsupportedOperationException.class);
+      assertThatThrownBy(list::clear).isExactlyInstanceOf(UnsupportedOperationException.class);
     }
 
     @Test
@@ -83,7 +83,7 @@ class HealthAndHomeCollectionsTest {
       List<String> list = HealthAndHomeCollections.immutable(input);
 
       assertThat(list).containsExactly("value");
-      assertThatThrownBy(() -> list.clear()).isExactlyInstanceOf(UnsupportedOperationException.class);
+      assertThatThrownBy(list::clear).isExactlyInstanceOf(UnsupportedOperationException.class);
     }
   }
 }
