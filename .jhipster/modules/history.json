@@ -406,5 +406,16 @@
       "indentSize" : 2,
       "baseName" : "healthAndHome"
     }
+  }, {
+    "module" : "spring-boot-actuator",
+    "date" : "2023-05-23T13:44:13.624028Z",
+    "properties" : {
+      "endOfLine" : "lf",
+      "packageName" : "com.healthAndHome",
+      "projectName" : "Health and Home",
+      "serverPort" : 8080,
+      "indentSize" : 2,
+      "baseName" : "healthAndHome"
+    }
   } ]
 }
