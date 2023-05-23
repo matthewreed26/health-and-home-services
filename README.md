@@ -16,6 +16,8 @@ npm install
 
 ## Local environment
 
+- [Local server](http://localhost:8080)
+
 <!-- jhipster-needle-localEnvironment -->
 
 ## Start up
@@ -44,5 +46,6 @@ docker compose -f src/main/docker/mysql.yml up -d
 - [Logs spy](documentation/logs-spy.md)
 - [MySQL](documentation/mysql.md)
 - [Dev tools](documentation/dev-tools.md)
+- [CORS configuration](documentation/cors-configuration.md)
 
 <!-- jhipster-needle-documentation -->
