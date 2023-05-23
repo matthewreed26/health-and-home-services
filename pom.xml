@@ -36,6 +36,7 @@
     <cucumber.version>7.12.0</cucumber.version>
     <testng.version>7.8.0</testng.version>
     <json-web-token.version>0.11.5</json-web-token.version>
+    <springdoc-openapi-starter-webmvc.version>2.1.0</springdoc-openapi-starter-webmvc.version>
   </properties>
 
   <dependencyManagement>
@@ -155,6 +156,18 @@
       <artifactId>jjwt-jackson</artifactId>
       <version>${json-web-token.version}</version>
       <scope>runtime</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springdoc</groupId>
+      <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+      <version>${springdoc-openapi-starter-webmvc.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springdoc</groupId>
+      <artifactId>springdoc-openapi-starter-webmvc-api</artifactId>
+      <version>${springdoc-openapi-starter-webmvc.version}</version>
     </dependency>
 
     <dependency>
