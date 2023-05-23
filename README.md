@@ -29,6 +29,10 @@ docker compose -f src/main/docker/sonar.yml up -d
 ./mvnw clean verify sonar:sonar
 ```
 
+```bash
+docker compose -f src/main/docker/mysql.yml up -d
+```
+
 <!-- jhipster-needle-startupCommand -->
 
 ## Documentation
@@ -38,5 +42,6 @@ docker compose -f src/main/docker/sonar.yml up -d
 - [Assertions](documentation/assertions.md)
 - [sonar](documentation/sonar.md)
 - [Logs spy](documentation/logs-spy.md)
+- [MySQL](documentation/mysql.md)
 
 <!-- jhipster-needle-documentation -->
